@@ -1,0 +1,180 @@
+@font-face {
+    font-family: maintitle;
+    src: url(../media/title.ttf);
+
+}
+
+@font-face {
+    font-family: mainbody;
+    src: url(../media/regular.ttf)
+}
+
+@media (max-width:991px) {
+    .points {
+        transform: translateX(3rem);
+        font-style: italic;
+        color: #eea52b;
+    }
+}
+
+
+div {
+    font-family: mainbody;
+
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+
+    font-family: mainbody;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    overflow: hidden;
+}
+
+p {
+    font-family: maintitle;
+    font-size: 40px;
+    color: white;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+.listsize {
+    font-size: 28px;
+}
+
+h1 {
+    font-family: maintitle;
+    color: white;
+}
+
+
+.jumbotron {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0 !important;
+    height: 100vh;
+}
+
+.navbar-custom {
+    background-color: black;
+}
+
+.mission {
+    font-size: 30px;
+}
+
+/*carousel*/
+.carousel-control-prev-icon {
+    margin-left: -80px;
+}
+
+.carousel-control-next-icon {
+    margin-right: -80px;
+}
+
+.carousel {
+    width: 300px;
+    height: 444x;
+}
+
+#ms {
+    background-image: url(../media/marymaxnight2.JPG);
+    opacity: .8;
+}
+
+/*Href*/
+a {
+    color: rgb(135, 93, 24);
+    transition: color 0.3s;
+}
+
+a:link {
+
+    text-decoration: none;
+
+
+}
+
+a:hover {
+
+    color: white;
+}
+
+
+.card {
+    background-color: black
+}
+
+
+/*Footer*/
+
+hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 0;
+    border-top: 5px solid #eea52b;
+    color: coral;
+
+}
+
+
+
+
+.smed i {
+    font-size: 70px;
+    margin: 20px;
+    padding-top: 10px;
+}
+
+#facebook {
+    color: #3B5998;
+    margin: 20px;
+
+}
+
+#twitter {
+    color: #55ACEE;
+    margin: 20px;
+
+}
+
+#instagram {
+    color: #3F729B;
+    margin: 20px;
+}
+
+.spec {
+    font-size: 1.5rem;
+}
+
+
+#divider {
+    margin-top: 7vw;
+}
+
+.bigpnc {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+
+.mnc {
+    width: 488px;
+    height: 326x;
+
+}
+
+.eventpics {
+    width: 400px;
+    height: 240px;
+
+}
